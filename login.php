@@ -13,33 +13,18 @@
 </head>
 <body>
     <div class="wrapper">
-        <section class="form section">
+        <section class="form login">
             <header>Realtime Chat App</header>
             <form action="#">
                 <div class="error-txt">This is an arror msg</div>
-                <div class="name-details">
-                    <div class="field input">
-                        <label>First Name</label>
-                        <input type="text" placeholder="First Name">
-                    </div>
-                
-                    <div class="field input">
-                        <label">Last Name</label>
-                        <input type="text" placeholder="Last Name">
-                    </div>
-                </div>
                 <div class="field input">
                     <label">Email Address</label>
                     <input type="text" placeholder="Enter Email">
                 </div>
                 <div class="field input">
                     <label">Password</label>
-                    <input type="text" placeholder="Enter new password">
+                    <input type="text" placeholder="Enter your password">
                     <i class="fas fa-eye"></i>
-                </div>
-                <div class="field image">
-                    <label">Select image</label>
-                    <input type="file">
                 </div>
                 <div class="field button">
                     <input type="submit" value="Continue to Chat">
@@ -47,7 +32,7 @@
 
                 
             </form>
-            <div class="link">Already signed up? <a href="#">Login Now</a></div>
+            <div class="link">not yet signed up? <a href="#">signup Now</a></div>
         </section>
     </div>
 </body>
